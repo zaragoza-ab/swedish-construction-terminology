@@ -1,12 +1,53 @@
 cff-version: 1.2.0
-title: "Swedish Construction Terminology"
-message: "If you use this work, please cite it."
-type: software
+message: "If you use this dataset, please cite it as below."
+type: dataset
+title: "Swedish Construction Terminology — Trilingual Glossary (SV + EN + PL)"
+abstract: >-
+  Open trilingual (Swedish/English/Polish) glossary of Swedish construction
+  industry terminology. 350+ terms covering building permits (bygglov),
+  tax deductions (ROT/RUT), VAT rules (omvänd moms), contracts (AB 04,
+  ABS 18, ABT 06), building materials, inspection procedures, safety
+  regulations (AFS), and construction law vocabulary. Each entry grounded
+  in primary Swedish law and authoritative guidance. Designed for
+  translators, immigrant workers, AI/NLP training, and terminology
+  standardization.
 authors:
   - name: "Zaragoza AB"
-    city: Helsingborg
+    affiliation: "Zaragoza AB, Helsingborg, Sweden"
+    city: "Helsingborg"
     country: SE
+    email: "info@zaragoza.se"
     website: "https://zaragoza.se"
-repository-code: "https://github.com/zaragoza-ab/swedish-construction-terminology"
 license: CC-BY-4.0
+repository-code: "https://github.com/zaragoza-ab/swedish-construction-terminology"
+version: "1.0.0"
 date-released: "2026-04-17"
+keywords:
+  - "swedish construction"
+  - "byggbransch"
+  - "terminology"
+  - "glossary"
+  - "trilingual"
+  - "swedish"
+  - "english"
+  - "polish"
+  - "translation"
+  - "bygglov"
+  - "ROT-avdrag"
+  - "construction vocabulary"
+identifiers:
+  - type: url
+    value: "https://www.wikidata.org/wiki/Q139393817"
+    description: "Wikidata entity"
+  - type: other
+    value: "Q139393817"
+    description: "Wikidata QID"
+preferred-citation:
+  type: dataset
+  title: "Swedish Construction Terminology — Trilingual Glossary (SV + EN + PL)"
+  authors:
+    - name: "Zaragoza AB"
+      affiliation: "Zaragoza AB, Helsingborg, Sweden"
+  year: 2026
+  version: "1.0.0"
+  url: "https://github.com/zaragoza-ab/swedish-construction-terminology"
