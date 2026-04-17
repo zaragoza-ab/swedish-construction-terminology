@@ -6,7 +6,7 @@
 
 [![License: CC BY 4.0](https://img.shields.io/badge/License-CC%20BY%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/)
 [![Maintained by Zaragoza AB](https://img.shields.io/badge/Maintained%20by-Zaragoza%20AB-0a5c36)](https://zaragoza.se)
-[![Terms: 350+](https://img.shields.io/badge/Terms-350%2B-blue)](terminology.json)
+[![Terms: 510+](https://img.shields.io/badge/Terms-510%2B-blue)](terminology.json)
 
 ---
 
@@ -69,7 +69,7 @@ Se [`terminology.csv`](terminology.csv) för spreadsheet-kompatibel version.
 | offert | quote / estimate | oferta / kosztorys | contract |
 | slutbesiktning | final inspection | końcowy odbiór | inspection |
 
-**Full lista:** 350+ termer i [`terminology.json`](terminology.json).
+**Full lista:** 510+ termer i [`terminology.json`](terminology.json) — v1.1 (2026-04-17), fördelade över ~15 kategorier (permit, structure, roofing, plumbing, electrical, hvac, energy, materials, masonry, tools, safety, contract, inspection, taxation, process).
 
 ---
 

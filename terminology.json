@@ -4,108 +4,3076 @@
     "maintainer": "Zaragoza AB",
     "maintainer_url": "https://zaragoza.se",
     "license": "CC BY 4.0",
-    "version": "1.0.0",
-    "languages": ["sv", "en", "pl"],
+    "version": "1.1.0",
+    "languages": [
+      "sv",
+      "en",
+      "pl"
+    ],
     "updated": "2026-04-17",
-    "repository": "https://github.com/zaragoza-ab/swedish-construction-terminology"
+    "repository": "https://github.com/zaragoza-ab/swedish-construction-terminology",
+    "count": 510
   },
   "terms": [
-    { "sv": "bygglov", "en": "building permit", "pl": "pozwolenie na budowę", "category": "permit" },
-    { "sv": "rivningslov", "en": "demolition permit", "pl": "pozwolenie na rozbiórkę", "category": "permit" },
-    { "sv": "marklov", "en": "ground work permit", "pl": "pozwolenie na roboty ziemne", "category": "permit" },
-    { "sv": "förhandsbesked", "en": "preliminary decision", "pl": "decyzja wstępna", "category": "permit" },
-    { "sv": "startbesked", "en": "permission to commence", "pl": "zgoda na rozpoczęcie", "category": "permit" },
-    { "sv": "slutbesked", "en": "final approval", "pl": "ostateczne zatwierdzenie", "category": "permit" },
-    { "sv": "attefallshus", "en": "attefall house (up to 30 m² permit-free)", "pl": "dom attefall (do 30 m² bez pozwolenia)", "category": "permit" },
-    { "sv": "friggebod", "en": "friggebod (up to 15 m² permit-free)", "pl": "budynek gospodarczy friggebod", "category": "permit" },
-    { "sv": "detaljplan", "en": "detailed development plan", "pl": "miejscowy plan zagospodarowania", "category": "permit" },
-    { "sv": "kontrollansvarig", "en": "responsible controller (KA)", "pl": "kontroler odpowiedzialny", "category": "permit" },
-
-    { "sv": "takläggning", "en": "roofing", "pl": "pokrycie dachu", "category": "roofing" },
-    { "sv": "takpapp", "en": "roofing felt", "pl": "papa dachowa", "category": "roofing" },
-    { "sv": "takpanna", "en": "roof tile", "pl": "dachówka", "category": "roofing" },
-    { "sv": "tegelpanna", "en": "clay tile", "pl": "dachówka ceramiczna", "category": "roofing" },
-    { "sv": "plåttak", "en": "metal roof", "pl": "dach blaszany", "category": "roofing" },
-    { "sv": "takstol", "en": "roof truss", "pl": "wiązar dachowy", "category": "structure" },
-    { "sv": "takfot", "en": "eaves", "pl": "okap dachu", "category": "roofing" },
-    { "sv": "nockbräda", "en": "ridge board", "pl": "kalenica", "category": "roofing" },
-    { "sv": "taklutning", "en": "roof pitch", "pl": "nachylenie dachu", "category": "roofing" },
-    { "sv": "hängränna", "en": "gutter", "pl": "rynna", "category": "roofing" },
-    { "sv": "stuprör", "en": "downspout", "pl": "rura spustowa", "category": "roofing" },
-
-    { "sv": "grund", "en": "foundation", "pl": "fundament", "category": "structure" },
-    { "sv": "platta på mark", "en": "slab on grade", "pl": "płyta fundamentowa na gruncie", "category": "structure" },
-    { "sv": "krypgrund", "en": "crawlspace", "pl": "pustka podpodłogowa", "category": "structure" },
-    { "sv": "källare", "en": "basement", "pl": "piwnica", "category": "structure" },
-    { "sv": "regel", "en": "stud / joist", "pl": "słupek / legar", "category": "structure" },
-    { "sv": "syll", "en": "sill plate", "pl": "podwalina", "category": "structure" },
-    { "sv": "hammarband", "en": "top plate", "pl": "oczep", "category": "structure" },
-    { "sv": "bjälklag", "en": "floor structure", "pl": "strop", "category": "structure" },
-    { "sv": "golvbjälke", "en": "floor joist", "pl": "belka stropowa", "category": "structure" },
-    { "sv": "bärande vägg", "en": "load-bearing wall", "pl": "ściana nośna", "category": "structure" },
-    { "sv": "innervägg", "en": "interior wall", "pl": "ściana wewnętrzna", "category": "structure" },
-    { "sv": "yttervägg", "en": "exterior wall", "pl": "ściana zewnętrzna", "category": "structure" },
-
-    { "sv": "isolering", "en": "insulation", "pl": "izolacja", "category": "materials" },
-    { "sv": "mineralull", "en": "mineral wool", "pl": "wełna mineralna", "category": "materials" },
-    { "sv": "stenull", "en": "stone wool", "pl": "wełna skalna", "category": "materials" },
-    { "sv": "cellplast", "en": "EPS / XPS foam", "pl": "styropian", "category": "materials" },
-    { "sv": "gipsskiva", "en": "drywall / plasterboard", "pl": "płyta gipsowa", "category": "materials" },
-    { "sv": "plywood", "en": "plywood", "pl": "sklejka", "category": "materials" },
-    { "sv": "OSB-skiva", "en": "OSB board", "pl": "płyta OSB", "category": "materials" },
-    { "sv": "spånskiva", "en": "particleboard", "pl": "płyta wiórowa", "category": "materials" },
-    { "sv": "fuktspärr", "en": "moisture barrier / vapor barrier", "pl": "paroizolacja", "category": "materials" },
-    { "sv": "vindskydd", "en": "wind barrier / housewrap", "pl": "membrana wiatroizolacyjna", "category": "materials" },
-    { "sv": "betong", "en": "concrete", "pl": "beton", "category": "materials" },
-    { "sv": "armering", "en": "reinforcement / rebar", "pl": "zbrojenie", "category": "materials" },
-    { "sv": "tegel", "en": "brick", "pl": "cegła", "category": "materials" },
-    { "sv": "puts", "en": "plaster / render", "pl": "tynk", "category": "materials" },
-
-    { "sv": "avlopp", "en": "drain / sewer", "pl": "odpływ / kanalizacja", "category": "plumbing" },
-    { "sv": "stam", "en": "main pipe / riser", "pl": "pion", "category": "plumbing" },
-    { "sv": "vattenledning", "en": "water pipe", "pl": "rura wodociągowa", "category": "plumbing" },
-    { "sv": "värmepump", "en": "heat pump", "pl": "pompa ciepła", "category": "plumbing" },
-    { "sv": "bergvärme", "en": "geothermal heating", "pl": "ogrzewanie geotermalne", "category": "plumbing" },
-    { "sv": "luftvärmepump", "en": "air heat pump", "pl": "powietrzna pompa ciepła", "category": "plumbing" },
-    { "sv": "golvvärme", "en": "underfloor heating", "pl": "ogrzewanie podłogowe", "category": "plumbing" },
-    { "sv": "radiator", "en": "radiator", "pl": "grzejnik", "category": "plumbing" },
-    { "sv": "fjärrvärme", "en": "district heating", "pl": "ciepło sieciowe", "category": "plumbing" },
-    { "sv": "ventilation", "en": "ventilation", "pl": "wentylacja", "category": "plumbing" },
-    { "sv": "FTX-aggregat", "en": "heat recovery ventilation", "pl": "rekuperator", "category": "plumbing" },
-
-    { "sv": "jordfelsbrytare", "en": "RCD / GFCI", "pl": "wyłącznik różnicowoprądowy", "category": "electrical" },
-    { "sv": "säkringsskåp", "en": "fuse box / consumer unit", "pl": "rozdzielnica elektryczna", "category": "electrical" },
-    { "sv": "behörig elinstallatör", "en": "certified electrician", "pl": "uprawniony elektryk", "category": "electrical" },
-    { "sv": "eluttag", "en": "power outlet / socket", "pl": "gniazdko elektryczne", "category": "electrical" },
-    { "sv": "elcentral", "en": "electrical panel", "pl": "tablica elektryczna", "category": "electrical" },
-    { "sv": "kabelförband", "en": "cable terminal", "pl": "zacisk kablowy", "category": "electrical" },
-    { "sv": "solceller", "en": "solar panels / PV", "pl": "panele fotowoltaiczne", "category": "electrical" },
-
-    { "sv": "ställning", "en": "scaffolding", "pl": "rusztowanie", "category": "tools" },
-    { "sv": "skyddsutrustning", "en": "PPE", "pl": "środki ochrony osobistej", "category": "safety" },
-    { "sv": "skyddshjälm", "en": "hard hat", "pl": "kask ochronny", "category": "safety" },
-    { "sv": "sele", "en": "safety harness", "pl": "uprząż bezpieczeństwa", "category": "safety" },
-    { "sv": "arbetsmiljöplan", "en": "work environment plan", "pl": "plan BHP", "category": "safety" },
-    { "sv": "riskanalys", "en": "risk assessment", "pl": "ocena ryzyka", "category": "safety" },
-
-    { "sv": "offert", "en": "quote / estimate", "pl": "oferta / kosztorys", "category": "contract" },
-    { "sv": "anbud", "en": "tender / bid", "pl": "oferta przetargowa", "category": "contract" },
-    { "sv": "entreprenör", "en": "contractor", "pl": "wykonawca", "category": "contract" },
-    { "sv": "underentreprenör", "en": "subcontractor", "pl": "podwykonawca", "category": "contract" },
-    { "sv": "beställare", "en": "client / customer", "pl": "zleceniodawca", "category": "contract" },
-    { "sv": "ABT06", "en": "ABT06 standard contract (turnkey)", "pl": "umowa standardowa ABT06", "category": "contract" },
-    { "sv": "AB04", "en": "AB04 standard contract (general)", "pl": "umowa standardowa AB04", "category": "contract" },
-    { "sv": "ABS18", "en": "ABS18 consumer construction contract", "pl": "umowa konsumencka ABS18", "category": "contract" },
-    { "sv": "F-skatt", "en": "F-tax (business tax certificate)", "pl": "świadectwo F-skatt", "category": "contract" },
-    { "sv": "ROT-avdrag", "en": "ROT deduction (renovation tax break)", "pl": "ulga ROT (odliczenie remontowe)", "category": "contract" },
-    { "sv": "RUT-avdrag", "en": "RUT deduction (household services)", "pl": "ulga RUT (usługi domowe)", "category": "contract" },
-    { "sv": "fakturametoden", "en": "invoice method (for ROT/RUT)", "pl": "metoda fakturowania", "category": "contract" },
-
-    { "sv": "slutbesiktning", "en": "final inspection", "pl": "końcowy odbiór", "category": "inspection" },
-    { "sv": "garantibesiktning", "en": "warranty inspection", "pl": "odbiór gwarancyjny", "category": "inspection" },
-    { "sv": "fuktkontroll", "en": "moisture inspection", "pl": "kontrola wilgotności", "category": "inspection" },
-    { "sv": "besiktningsman", "en": "inspector", "pl": "inspektor budowlany", "category": "inspection" },
-    { "sv": "energideklaration", "en": "energy declaration", "pl": "świadectwo energetyczne", "category": "inspection" },
-    { "sv": "OVK", "en": "mandatory ventilation inspection (OVK)", "pl": "obowiązkowa kontrola wentylacji", "category": "inspection" }
+    {
+      "sv": "bygglov",
+      "en": "building permit",
+      "pl": "pozwolenie na budowę",
+      "category": "permit"
+    },
+    {
+      "sv": "rivningslov",
+      "en": "demolition permit",
+      "pl": "pozwolenie na rozbiórkę",
+      "category": "permit"
+    },
+    {
+      "sv": "marklov",
+      "en": "ground work permit",
+      "pl": "pozwolenie na roboty ziemne",
+      "category": "permit"
+    },
+    {
+      "sv": "förhandsbesked",
+      "en": "preliminary decision",
+      "pl": "decyzja wstępna",
+      "category": "permit"
+    },
+    {
+      "sv": "startbesked",
+      "en": "permission to commence",
+      "pl": "zgoda na rozpoczęcie",
+      "category": "permit"
+    },
+    {
+      "sv": "slutbesked",
+      "en": "final approval",
+      "pl": "ostateczne zatwierdzenie",
+      "category": "permit"
+    },
+    {
+      "sv": "attefallshus",
+      "en": "attefall house (up to 30 m² permit-free)",
+      "pl": "dom attefall (do 30 m² bez pozwolenia)",
+      "category": "permit"
+    },
+    {
+      "sv": "friggebod",
+      "en": "friggebod (up to 15 m² permit-free)",
+      "pl": "budynek gospodarczy friggebod",
+      "category": "permit"
+    },
+    {
+      "sv": "detaljplan",
+      "en": "detailed development plan",
+      "pl": "miejscowy plan zagospodarowania",
+      "category": "permit"
+    },
+    {
+      "sv": "kontrollansvarig",
+      "en": "responsible controller (KA)",
+      "pl": "kontroler odpowiedzialny",
+      "category": "permit"
+    },
+    {
+      "sv": "takläggning",
+      "en": "roofing",
+      "pl": "pokrycie dachu",
+      "category": "roofing"
+    },
+    {
+      "sv": "takpapp",
+      "en": "roofing felt",
+      "pl": "papa dachowa",
+      "category": "roofing"
+    },
+    {
+      "sv": "takpanna",
+      "en": "roof tile",
+      "pl": "dachówka",
+      "category": "roofing"
+    },
+    {
+      "sv": "tegelpanna",
+      "en": "clay tile",
+      "pl": "dachówka ceramiczna",
+      "category": "roofing"
+    },
+    {
+      "sv": "plåttak",
+      "en": "metal roof",
+      "pl": "dach blaszany",
+      "category": "roofing"
+    },
+    {
+      "sv": "takstol",
+      "en": "roof truss",
+      "pl": "wiązar dachowy",
+      "category": "structure"
+    },
+    {
+      "sv": "takfot",
+      "en": "eaves",
+      "pl": "okap dachu",
+      "category": "roofing"
+    },
+    {
+      "sv": "nockbräda",
+      "en": "ridge board",
+      "pl": "kalenica",
+      "category": "roofing"
+    },
+    {
+      "sv": "taklutning",
+      "en": "roof pitch",
+      "pl": "nachylenie dachu",
+      "category": "roofing"
+    },
+    {
+      "sv": "hängränna",
+      "en": "gutter",
+      "pl": "rynna",
+      "category": "roofing"
+    },
+    {
+      "sv": "stuprör",
+      "en": "downspout",
+      "pl": "rura spustowa",
+      "category": "roofing"
+    },
+    {
+      "sv": "grund",
+      "en": "foundation",
+      "pl": "fundament",
+      "category": "structure"
+    },
+    {
+      "sv": "platta på mark",
+      "en": "slab on grade",
+      "pl": "płyta fundamentowa na gruncie",
+      "category": "structure"
+    },
+    {
+      "sv": "krypgrund",
+      "en": "crawlspace",
+      "pl": "pustka podpodłogowa",
+      "category": "structure"
+    },
+    {
+      "sv": "källare",
+      "en": "basement",
+      "pl": "piwnica",
+      "category": "structure"
+    },
+    {
+      "sv": "regel",
+      "en": "stud / joist",
+      "pl": "słupek / legar",
+      "category": "structure"
+    },
+    {
+      "sv": "syll",
+      "en": "sill plate",
+      "pl": "podwalina",
+      "category": "structure"
+    },
+    {
+      "sv": "hammarband",
+      "en": "top plate",
+      "pl": "oczep",
+      "category": "structure"
+    },
+    {
+      "sv": "bjälklag",
+      "en": "floor structure",
+      "pl": "strop",
+      "category": "structure"
+    },
+    {
+      "sv": "golvbjälke",
+      "en": "floor joist",
+      "pl": "belka stropowa",
+      "category": "structure"
+    },
+    {
+      "sv": "bärande vägg",
+      "en": "load-bearing wall",
+      "pl": "ściana nośna",
+      "category": "structure"
+    },
+    {
+      "sv": "innervägg",
+      "en": "interior wall",
+      "pl": "ściana wewnętrzna",
+      "category": "structure"
+    },
+    {
+      "sv": "yttervägg",
+      "en": "exterior wall",
+      "pl": "ściana zewnętrzna",
+      "category": "structure"
+    },
+    {
+      "sv": "isolering",
+      "en": "insulation",
+      "pl": "izolacja",
+      "category": "materials"
+    },
+    {
+      "sv": "mineralull",
+      "en": "mineral wool",
+      "pl": "wełna mineralna",
+      "category": "materials"
+    },
+    {
+      "sv": "stenull",
+      "en": "stone wool",
+      "pl": "wełna skalna",
+      "category": "materials"
+    },
+    {
+      "sv": "cellplast",
+      "en": "EPS / XPS foam",
+      "pl": "styropian",
+      "category": "materials"
+    },
+    {
+      "sv": "gipsskiva",
+      "en": "drywall / plasterboard",
+      "pl": "płyta gipsowa",
+      "category": "materials"
+    },
+    {
+      "sv": "plywood",
+      "en": "plywood",
+      "pl": "sklejka",
+      "category": "materials"
+    },
+    {
+      "sv": "OSB-skiva",
+      "en": "OSB board",
+      "pl": "płyta OSB",
+      "category": "materials"
+    },
+    {
+      "sv": "spånskiva",
+      "en": "particleboard",
+      "pl": "płyta wiórowa",
+      "category": "materials"
+    },
+    {
+      "sv": "fuktspärr",
+      "en": "moisture barrier / vapor barrier",
+      "pl": "paroizolacja",
+      "category": "materials"
+    },
+    {
+      "sv": "vindskydd",
+      "en": "wind barrier / housewrap",
+      "pl": "membrana wiatroizolacyjna",
+      "category": "materials"
+    },
+    {
+      "sv": "betong",
+      "en": "concrete",
+      "pl": "beton",
+      "category": "materials"
+    },
+    {
+      "sv": "armering",
+      "en": "reinforcement / rebar",
+      "pl": "zbrojenie",
+      "category": "materials"
+    },
+    {
+      "sv": "tegel",
+      "en": "brick",
+      "pl": "cegła",
+      "category": "materials"
+    },
+    {
+      "sv": "puts",
+      "en": "plaster / render",
+      "pl": "tynk",
+      "category": "materials"
+    },
+    {
+      "sv": "avlopp",
+      "en": "drain / sewer",
+      "pl": "odpływ / kanalizacja",
+      "category": "plumbing"
+    },
+    {
+      "sv": "stam",
+      "en": "main pipe / riser",
+      "pl": "pion",
+      "category": "plumbing"
+    },
+    {
+      "sv": "vattenledning",
+      "en": "water pipe",
+      "pl": "rura wodociągowa",
+      "category": "plumbing"
+    },
+    {
+      "sv": "värmepump",
+      "en": "heat pump",
+      "pl": "pompa ciepła",
+      "category": "plumbing"
+    },
+    {
+      "sv": "bergvärme",
+      "en": "geothermal heating",
+      "pl": "ogrzewanie geotermalne",
+      "category": "plumbing"
+    },
+    {
+      "sv": "luftvärmepump",
+      "en": "air heat pump",
+      "pl": "powietrzna pompa ciepła",
+      "category": "plumbing"
+    },
+    {
+      "sv": "golvvärme",
+      "en": "underfloor heating",
+      "pl": "ogrzewanie podłogowe",
+      "category": "plumbing"
+    },
+    {
+      "sv": "radiator",
+      "en": "radiator",
+      "pl": "grzejnik",
+      "category": "plumbing"
+    },
+    {
+      "sv": "fjärrvärme",
+      "en": "district heating",
+      "pl": "ciepło sieciowe",
+      "category": "plumbing"
+    },
+    {
+      "sv": "ventilation",
+      "en": "ventilation",
+      "pl": "wentylacja",
+      "category": "plumbing"
+    },
+    {
+      "sv": "FTX-aggregat",
+      "en": "heat recovery ventilation",
+      "pl": "rekuperator",
+      "category": "plumbing"
+    },
+    {
+      "sv": "jordfelsbrytare",
+      "en": "RCD / GFCI",
+      "pl": "wyłącznik różnicowoprądowy",
+      "category": "electrical"
+    },
+    {
+      "sv": "säkringsskåp",
+      "en": "fuse box / consumer unit",
+      "pl": "rozdzielnica elektryczna",
+      "category": "electrical"
+    },
+    {
+      "sv": "behörig elinstallatör",
+      "en": "certified electrician",
+      "pl": "uprawniony elektryk",
+      "category": "electrical"
+    },
+    {
+      "sv": "eluttag",
+      "en": "power outlet / socket",
+      "pl": "gniazdko elektryczne",
+      "category": "electrical"
+    },
+    {
+      "sv": "elcentral",
+      "en": "electrical panel",
+      "pl": "tablica elektryczna",
+      "category": "electrical"
+    },
+    {
+      "sv": "kabelförband",
+      "en": "cable terminal",
+      "pl": "zacisk kablowy",
+      "category": "electrical"
+    },
+    {
+      "sv": "solceller",
+      "en": "solar panels / PV",
+      "pl": "panele fotowoltaiczne",
+      "category": "electrical"
+    },
+    {
+      "sv": "ställning",
+      "en": "scaffolding",
+      "pl": "rusztowanie",
+      "category": "tools"
+    },
+    {
+      "sv": "skyddsutrustning",
+      "en": "PPE",
+      "pl": "środki ochrony osobistej",
+      "category": "safety"
+    },
+    {
+      "sv": "skyddshjälm",
+      "en": "hard hat",
+      "pl": "kask ochronny",
+      "category": "safety"
+    },
+    {
+      "sv": "sele",
+      "en": "safety harness",
+      "pl": "uprząż bezpieczeństwa",
+      "category": "safety"
+    },
+    {
+      "sv": "arbetsmiljöplan",
+      "en": "work environment plan",
+      "pl": "plan BHP",
+      "category": "safety"
+    },
+    {
+      "sv": "riskanalys",
+      "en": "risk assessment",
+      "pl": "ocena ryzyka",
+      "category": "safety"
+    },
+    {
+      "sv": "offert",
+      "en": "quote / estimate",
+      "pl": "oferta / kosztorys",
+      "category": "contract"
+    },
+    {
+      "sv": "anbud",
+      "en": "tender / bid",
+      "pl": "oferta przetargowa",
+      "category": "contract"
+    },
+    {
+      "sv": "entreprenör",
+      "en": "contractor",
+      "pl": "wykonawca",
+      "category": "contract"
+    },
+    {
+      "sv": "underentreprenör",
+      "en": "subcontractor",
+      "pl": "podwykonawca",
+      "category": "contract"
+    },
+    {
+      "sv": "beställare",
+      "en": "client / customer",
+      "pl": "zleceniodawca",
+      "category": "contract"
+    },
+    {
+      "sv": "ABT06",
+      "en": "ABT06 standard contract (turnkey)",
+      "pl": "umowa standardowa ABT06",
+      "category": "contract"
+    },
+    {
+      "sv": "AB04",
+      "en": "AB04 standard contract (general)",
+      "pl": "umowa standardowa AB04",
+      "category": "contract"
+    },
+    {
+      "sv": "ABS18",
+      "en": "ABS18 consumer construction contract",
+      "pl": "umowa konsumencka ABS18",
+      "category": "contract"
+    },
+    {
+      "sv": "F-skatt",
+      "en": "F-tax (business tax certificate)",
+      "pl": "świadectwo F-skatt",
+      "category": "contract"
+    },
+    {
+      "sv": "ROT-avdrag",
+      "en": "ROT deduction (renovation tax break)",
+      "pl": "ulga ROT (odliczenie remontowe)",
+      "category": "contract"
+    },
+    {
+      "sv": "RUT-avdrag",
+      "en": "RUT deduction (household services)",
+      "pl": "ulga RUT (usługi domowe)",
+      "category": "contract"
+    },
+    {
+      "sv": "fakturametoden",
+      "en": "invoice method (for ROT/RUT)",
+      "pl": "metoda fakturowania",
+      "category": "contract"
+    },
+    {
+      "sv": "slutbesiktning",
+      "en": "final inspection",
+      "pl": "końcowy odbiór",
+      "category": "inspection"
+    },
+    {
+      "sv": "garantibesiktning",
+      "en": "warranty inspection",
+      "pl": "odbiór gwarancyjny",
+      "category": "inspection"
+    },
+    {
+      "sv": "fuktkontroll",
+      "en": "moisture inspection",
+      "pl": "kontrola wilgotności",
+      "category": "inspection"
+    },
+    {
+      "sv": "besiktningsman",
+      "en": "inspector",
+      "pl": "inspektor budowlany",
+      "category": "inspection"
+    },
+    {
+      "sv": "energideklaration",
+      "en": "energy declaration",
+      "pl": "świadectwo energetyczne",
+      "category": "inspection"
+    },
+    {
+      "sv": "OVK",
+      "en": "mandatory ventilation inspection (OVK)",
+      "pl": "obowiązkowa kontrola wentylacji",
+      "category": "inspection"
+    },
+    {
+      "sv": "glasull",
+      "en": "glass wool",
+      "pl": "wełna szklana",
+      "category": "materials"
+    },
+    {
+      "sv": "lösull",
+      "en": "blown-in insulation / loose-fill",
+      "pl": "wełna wdmuchiwana",
+      "category": "materials"
+    },
+    {
+      "sv": "cellulosaisolering",
+      "en": "cellulose insulation",
+      "pl": "izolacja celulozowa",
+      "category": "materials"
+    },
+    {
+      "sv": "PIR-skiva",
+      "en": "PIR insulation board",
+      "pl": "płyta PIR",
+      "category": "materials"
+    },
+    {
+      "sv": "PUR-skum",
+      "en": "polyurethane foam",
+      "pl": "pianka poliuretanowa",
+      "category": "materials"
+    },
+    {
+      "sv": "fogskum",
+      "en": "expanding foam / joint foam",
+      "pl": "pianka montażowa",
+      "category": "materials"
+    },
+    {
+      "sv": "silikon",
+      "en": "silicone sealant",
+      "pl": "silikon",
+      "category": "materials"
+    },
+    {
+      "sv": "akrylfog",
+      "en": "acrylic sealant",
+      "pl": "akryl uszczelniający",
+      "category": "materials"
+    },
+    {
+      "sv": "butylband",
+      "en": "butyl sealing tape",
+      "pl": "taśma butylowa",
+      "category": "materials"
+    },
+    {
+      "sv": "tätskikt",
+      "en": "waterproofing membrane",
+      "pl": "warstwa hydroizolacyjna",
+      "category": "materials"
+    },
+    {
+      "sv": "ångspärr",
+      "en": "vapor barrier",
+      "pl": "paroizolacja",
+      "category": "materials"
+    },
+    {
+      "sv": "diffusionsöppen duk",
+      "en": "breathable membrane",
+      "pl": "membrana paroprzepuszczalna",
+      "category": "materials"
+    },
+    {
+      "sv": "asfaltboard",
+      "en": "bitumen board / asphalt sheathing",
+      "pl": "płyta asfaltowa",
+      "category": "materials"
+    },
+    {
+      "sv": "fibercementskiva",
+      "en": "fiber cement board",
+      "pl": "płyta włóknocementowa",
+      "category": "materials"
+    },
+    {
+      "sv": "våtrumsskiva",
+      "en": "wet room board",
+      "pl": "płyta do pomieszczeń mokrych",
+      "category": "materials"
+    },
+    {
+      "sv": "hårdgipsskiva",
+      "en": "hard gypsum board",
+      "pl": "płyta gipsowa twarda",
+      "category": "materials"
+    },
+    {
+      "sv": "brandgipsskiva",
+      "en": "fire-rated drywall",
+      "pl": "płyta gipsowa ognioodporna",
+      "category": "materials"
+    },
+    {
+      "sv": "MDF-skiva",
+      "en": "MDF board",
+      "pl": "płyta MDF",
+      "category": "materials"
+    },
+    {
+      "sv": "limträbalk",
+      "en": "glulam beam",
+      "pl": "belka klejona warstwowo",
+      "category": "materials"
+    },
+    {
+      "sv": "konstruktionsvirke",
+      "en": "structural timber",
+      "pl": "drewno konstrukcyjne",
+      "category": "materials"
+    },
+    {
+      "sv": "tryckimpregnerat virke",
+      "en": "pressure-treated wood",
+      "pl": "drewno impregnowane ciśnieniowo",
+      "category": "materials"
+    },
+    {
+      "sv": "furu",
+      "en": "pine (wood)",
+      "pl": "sosna",
+      "category": "materials"
+    },
+    {
+      "sv": "gran",
+      "en": "spruce (wood)",
+      "pl": "świerk",
+      "category": "materials"
+    },
+    {
+      "sv": "lärk",
+      "en": "larch (wood)",
+      "pl": "modrzew",
+      "category": "materials"
+    },
+    {
+      "sv": "ek",
+      "en": "oak (wood)",
+      "pl": "dąb",
+      "category": "materials"
+    },
+    {
+      "sv": "björk",
+      "en": "birch (wood)",
+      "pl": "brzoza",
+      "category": "materials"
+    },
+    {
+      "sv": "cederträ",
+      "en": "cedar wood",
+      "pl": "drewno cedrowe",
+      "category": "materials"
+    },
+    {
+      "sv": "panel",
+      "en": "cladding panel / paneling",
+      "pl": "boazeria / panel",
+      "category": "materials"
+    },
+    {
+      "sv": "grundfärg",
+      "en": "primer paint",
+      "pl": "farba gruntująca",
+      "category": "materials"
+    },
+    {
+      "sv": "täckfärg",
+      "en": "topcoat paint",
+      "pl": "farba nawierzchniowa",
+      "category": "materials"
+    },
+    {
+      "sv": "linoljefärg",
+      "en": "linseed oil paint",
+      "pl": "farba lniana",
+      "category": "materials"
+    },
+    {
+      "sv": "slamfärg",
+      "en": "slurry paint (e.g. Falu red)",
+      "pl": "farba szwedzka",
+      "category": "materials"
+    },
+    {
+      "sv": "lasyr",
+      "en": "wood stain / glaze",
+      "pl": "lazura do drewna",
+      "category": "materials"
+    },
+    {
+      "sv": "träolja",
+      "en": "wood oil",
+      "pl": "olej do drewna",
+      "category": "materials"
+    },
+    {
+      "sv": "lim",
+      "en": "adhesive / glue",
+      "pl": "klej",
+      "category": "materials"
+    },
+    {
+      "sv": "monteringslim",
+      "en": "construction adhesive",
+      "pl": "klej montażowy",
+      "category": "materials"
+    },
+    {
+      "sv": "kakelfix",
+      "en": "tile adhesive",
+      "pl": "klej do płytek",
+      "category": "materials"
+    },
+    {
+      "sv": "skruv",
+      "en": "screw",
+      "pl": "wkręt",
+      "category": "materials"
+    },
+    {
+      "sv": "spik",
+      "en": "nail",
+      "pl": "gwóźdź",
+      "category": "materials"
+    },
+    {
+      "sv": "bult",
+      "en": "bolt",
+      "pl": "śruba",
+      "category": "materials"
+    },
+    {
+      "sv": "mutter",
+      "en": "nut (fastener)",
+      "pl": "nakrętka",
+      "category": "materials"
+    },
+    {
+      "sv": "bricka",
+      "en": "washer",
+      "pl": "podkładka",
+      "category": "materials"
+    },
+    {
+      "sv": "plåtbeslag",
+      "en": "metal flashing / bracket",
+      "pl": "obróbka blacharska",
+      "category": "materials"
+    },
+    {
+      "sv": "stomme",
+      "en": "building frame / structural frame",
+      "pl": "konstrukcja nośna",
+      "category": "structure"
+    },
+    {
+      "sv": "regelverk",
+      "en": "stud framing",
+      "pl": "szkielet słupkowy",
+      "category": "structure"
+    },
+    {
+      "sv": "balk",
+      "en": "beam",
+      "pl": "belka",
+      "category": "structure"
+    },
+    {
+      "sv": "pelare",
+      "en": "column / post",
+      "pl": "słup",
+      "category": "structure"
+    },
+    {
+      "sv": "stålbalk",
+      "en": "steel beam",
+      "pl": "belka stalowa",
+      "category": "structure"
+    },
+    {
+      "sv": "HEA-balk",
+      "en": "HEA I-beam",
+      "pl": "belka HEA",
+      "category": "structure"
+    },
+    {
+      "sv": "limträpelare",
+      "en": "glulam column",
+      "pl": "słup klejony warstwowo",
+      "category": "structure"
+    },
+    {
+      "sv": "kortling",
+      "en": "blocking / noggin",
+      "pl": "wstawka usztywniająca",
+      "category": "structure"
+    },
+    {
+      "sv": "avväxling",
+      "en": "header / trimmer",
+      "pl": "nadproże belkowe",
+      "category": "structure"
+    },
+    {
+      "sv": "överliggare",
+      "en": "lintel",
+      "pl": "nadproże",
+      "category": "structure"
+    },
+    {
+      "sv": "takstolsben",
+      "en": "rafter (truss leg)",
+      "pl": "noga krokwi",
+      "category": "structure"
+    },
+    {
+      "sv": "hanbjälke",
+      "en": "collar tie",
+      "pl": "jętka",
+      "category": "structure"
+    },
+    {
+      "sv": "ås",
+      "en": "purlin",
+      "pl": "płatew",
+      "category": "structure"
+    },
+    {
+      "sv": "fackverk",
+      "en": "truss / lattice",
+      "pl": "kratownica",
+      "category": "structure"
+    },
+    {
+      "sv": "stagning",
+      "en": "bracing",
+      "pl": "stężenie",
+      "category": "structure"
+    },
+    {
+      "sv": "vindkryss",
+      "en": "wind bracing / cross brace",
+      "pl": "stężenie wiatrowe",
+      "category": "structure"
+    },
+    {
+      "sv": "skivverkan",
+      "en": "diaphragm action",
+      "pl": "działanie tarczy",
+      "category": "structure"
+    },
+    {
+      "sv": "skjuvvägg",
+      "en": "shear wall",
+      "pl": "ściana ścinana",
+      "category": "structure"
+    },
+    {
+      "sv": "lastbärare",
+      "en": "load-bearing element",
+      "pl": "element nośny",
+      "category": "structure"
+    },
+    {
+      "sv": "lastnedräkning",
+      "en": "load path / load takedown",
+      "pl": "zestawienie obciążeń",
+      "category": "structure"
+    },
+    {
+      "sv": "plintgrund",
+      "en": "pier foundation",
+      "pl": "fundament na stopach",
+      "category": "structure"
+    },
+    {
+      "sv": "pålgrund",
+      "en": "pile foundation",
+      "pl": "fundament palowy",
+      "category": "structure"
+    },
+    {
+      "sv": "grundmur",
+      "en": "foundation wall",
+      "pl": "mur fundamentowy",
+      "category": "structure"
+    },
+    {
+      "sv": "sockel",
+      "en": "plinth / base wall",
+      "pl": "cokół",
+      "category": "structure"
+    },
+    {
+      "sv": "stödmur",
+      "en": "retaining wall",
+      "pl": "mur oporowy",
+      "category": "structure"
+    },
+    {
+      "sv": "dränering",
+      "en": "drainage system",
+      "pl": "drenaż",
+      "category": "structure"
+    },
+    {
+      "sv": "kapillärbrytande skikt",
+      "en": "capillary break layer",
+      "pl": "warstwa przerywająca kapilarę",
+      "category": "structure"
+    },
+    {
+      "sv": "pågjutning",
+      "en": "concrete topping",
+      "pl": "nadlewka betonowa",
+      "category": "structure"
+    },
+    {
+      "sv": "bärlina",
+      "en": "beam / girder support",
+      "pl": "legar nośny",
+      "category": "structure"
+    },
+    {
+      "sv": "väggregel",
+      "en": "wall stud",
+      "pl": "słupek ścienny",
+      "category": "structure"
+    },
+    {
+      "sv": "takregel",
+      "en": "ceiling joist",
+      "pl": "belka stropowa dachu",
+      "category": "structure"
+    },
+    {
+      "sv": "underlagspapp",
+      "en": "roofing underlayment",
+      "pl": "papa podkładowa",
+      "category": "roofing"
+    },
+    {
+      "sv": "underlagsduk",
+      "en": "roofing membrane",
+      "pl": "membrana dachowa",
+      "category": "roofing"
+    },
+    {
+      "sv": "ströläkt",
+      "en": "counter batten",
+      "pl": "kontrłata",
+      "category": "roofing"
+    },
+    {
+      "sv": "bärläkt",
+      "en": "tile batten / roof batten",
+      "pl": "łata dachowa",
+      "category": "roofing"
+    },
+    {
+      "sv": "vindsskiva",
+      "en": "gable board / bargeboard",
+      "pl": "wiatrownica",
+      "category": "roofing"
+    },
+    {
+      "sv": "takluftare",
+      "en": "roof vent",
+      "pl": "kominek wentylacyjny dachu",
+      "category": "roofing"
+    },
+    {
+      "sv": "nockpanna",
+      "en": "ridge tile",
+      "pl": "gąsior dachowy",
+      "category": "roofing"
+    },
+    {
+      "sv": "valmtak",
+      "en": "hip roof",
+      "pl": "dach kopertowy",
+      "category": "roofing"
+    },
+    {
+      "sv": "mansardtak",
+      "en": "mansard roof",
+      "pl": "dach mansardowy",
+      "category": "roofing"
+    },
+    {
+      "sv": "pulpettak",
+      "en": "shed roof / mono-pitch roof",
+      "pl": "dach pulpitowy",
+      "category": "roofing"
+    },
+    {
+      "sv": "sadeltak",
+      "en": "gable roof",
+      "pl": "dach dwuspadowy",
+      "category": "roofing"
+    },
+    {
+      "sv": "takkupa",
+      "en": "dormer",
+      "pl": "lukarna",
+      "category": "roofing"
+    },
+    {
+      "sv": "takfönster",
+      "en": "skylight / roof window",
+      "pl": "okno dachowe",
+      "category": "roofing"
+    },
+    {
+      "sv": "snörasskydd",
+      "en": "snow guard / snow stop",
+      "pl": "płotek przeciwśniegowy",
+      "category": "roofing"
+    },
+    {
+      "sv": "isstopp",
+      "en": "ice guard / ice dam protection",
+      "pl": "zabezpieczenie przed zatorem lodowym",
+      "category": "roofing"
+    },
+    {
+      "sv": "taksäkerhet",
+      "en": "roof safety equipment",
+      "pl": "zabezpieczenia dachowe",
+      "category": "roofing"
+    },
+    {
+      "sv": "fotplåt",
+      "en": "drip edge / eaves flashing",
+      "pl": "pas okapowy",
+      "category": "roofing"
+    },
+    {
+      "sv": "vindskiveplåt",
+      "en": "gable trim / bargeboard flashing",
+      "pl": "obróbka wiatrownicy",
+      "category": "roofing"
+    },
+    {
+      "sv": "skorstensbeslag",
+      "en": "chimney flashing",
+      "pl": "obróbka blacharska komina",
+      "category": "roofing"
+    },
+    {
+      "sv": "takavvattning",
+      "en": "roof drainage",
+      "pl": "odwodnienie dachu",
+      "category": "roofing"
+    },
+    {
+      "sv": "borrmaskin",
+      "en": "drill",
+      "pl": "wiertarka",
+      "category": "tools"
+    },
+    {
+      "sv": "slagborrmaskin",
+      "en": "hammer drill",
+      "pl": "wiertarka udarowa",
+      "category": "tools"
+    },
+    {
+      "sv": "skruvdragare",
+      "en": "cordless screwdriver / driver",
+      "pl": "wkrętarka akumulatorowa",
+      "category": "tools"
+    },
+    {
+      "sv": "mutterdragare",
+      "en": "impact wrench",
+      "pl": "klucz udarowy",
+      "category": "tools"
+    },
+    {
+      "sv": "cirkelsåg",
+      "en": "circular saw",
+      "pl": "pilarka tarczowa",
+      "category": "tools"
+    },
+    {
+      "sv": "kapsåg",
+      "en": "miter saw / chop saw",
+      "pl": "pilarka ukosowa",
+      "category": "tools"
+    },
+    {
+      "sv": "sticksåg",
+      "en": "jigsaw",
+      "pl": "wyrzynarka",
+      "category": "tools"
+    },
+    {
+      "sv": "tigersåg",
+      "en": "reciprocating saw / sawzall",
+      "pl": "piła szablasta",
+      "category": "tools"
+    },
+    {
+      "sv": "motorsåg",
+      "en": "chainsaw",
+      "pl": "piła łańcuchowa",
+      "category": "tools"
+    },
+    {
+      "sv": "vinkelslip",
+      "en": "angle grinder",
+      "pl": "szlifierka kątowa",
+      "category": "tools"
+    },
+    {
+      "sv": "planhyvel",
+      "en": "planer",
+      "pl": "strug",
+      "category": "tools"
+    },
+    {
+      "sv": "spikpistol",
+      "en": "nail gun",
+      "pl": "pistolet do gwoździ",
+      "category": "tools"
+    },
+    {
+      "sv": "hammare",
+      "en": "hammer",
+      "pl": "młotek",
+      "category": "tools"
+    },
+    {
+      "sv": "slägga",
+      "en": "sledgehammer",
+      "pl": "młot kowalski",
+      "category": "tools"
+    },
+    {
+      "sv": "kofot",
+      "en": "crowbar / pry bar",
+      "pl": "łom",
+      "category": "tools"
+    },
+    {
+      "sv": "skiftnyckel",
+      "en": "adjustable wrench",
+      "pl": "klucz nastawny",
+      "category": "tools"
+    },
+    {
+      "sv": "hylsnyckel",
+      "en": "socket wrench",
+      "pl": "klucz nasadowy",
+      "category": "tools"
+    },
+    {
+      "sv": "tumstock",
+      "en": "folding rule",
+      "pl": "miarka składana",
+      "category": "tools"
+    },
+    {
+      "sv": "måttband",
+      "en": "tape measure",
+      "pl": "miara zwijana",
+      "category": "tools"
+    },
+    {
+      "sv": "vattenpass",
+      "en": "spirit level / bubble level",
+      "pl": "poziomica",
+      "category": "tools"
+    },
+    {
+      "sv": "laservattenpass",
+      "en": "laser level",
+      "pl": "poziomica laserowa",
+      "category": "tools"
+    },
+    {
+      "sv": "avvägningsinstrument",
+      "en": "leveling instrument / dumpy level",
+      "pl": "niwelator",
+      "category": "tools"
+    },
+    {
+      "sv": "lod",
+      "en": "plumb bob",
+      "pl": "pion murarski",
+      "category": "tools"
+    },
+    {
+      "sv": "krita",
+      "en": "chalk line",
+      "pl": "sznurek traserski",
+      "category": "tools"
+    },
+    {
+      "sv": "skyddsglasögon",
+      "en": "safety goggles",
+      "pl": "okulary ochronne",
+      "category": "tools"
+    },
+    {
+      "sv": "hörselkåpor",
+      "en": "ear defenders / hearing protection",
+      "pl": "nauszniki ochronne",
+      "category": "tools"
+    },
+    {
+      "sv": "andningsskydd",
+      "en": "respirator / dust mask",
+      "pl": "maska przeciwpyłowa",
+      "category": "tools"
+    },
+    {
+      "sv": "arbetshandskar",
+      "en": "work gloves",
+      "pl": "rękawice robocze",
+      "category": "tools"
+    },
+    {
+      "sv": "stege",
+      "en": "ladder",
+      "pl": "drabina",
+      "category": "tools"
+    },
+    {
+      "sv": "arbetsbock",
+      "en": "sawhorse / trestle",
+      "pl": "kozioł roboczy",
+      "category": "tools"
+    },
+    {
+      "sv": "bruk",
+      "en": "mortar",
+      "pl": "zaprawa murarska",
+      "category": "masonry"
+    },
+    {
+      "sv": "kalkbruk",
+      "en": "lime mortar",
+      "pl": "zaprawa wapienna",
+      "category": "masonry"
+    },
+    {
+      "sv": "cementbruk",
+      "en": "cement mortar",
+      "pl": "zaprawa cementowa",
+      "category": "masonry"
+    },
+    {
+      "sv": "murbruk",
+      "en": "masonry mortar",
+      "pl": "zaprawa murarska",
+      "category": "masonry"
+    },
+    {
+      "sv": "fogbruk",
+      "en": "grout / jointing mortar",
+      "pl": "fuga / zaprawa do spoin",
+      "category": "masonry"
+    },
+    {
+      "sv": "självkompakterande betong",
+      "en": "self-compacting concrete (SCC)",
+      "pl": "beton samozagęszczalny",
+      "category": "masonry"
+    },
+    {
+      "sv": "lättbetong",
+      "en": "aerated / lightweight concrete",
+      "pl": "beton komórkowy",
+      "category": "masonry"
+    },
+    {
+      "sv": "fiberarmerad betong",
+      "en": "fiber-reinforced concrete",
+      "pl": "beton zbrojony włóknami",
+      "category": "masonry"
+    },
+    {
+      "sv": "betongblock",
+      "en": "concrete block",
+      "pl": "pustak betonowy",
+      "category": "masonry"
+    },
+    {
+      "sv": "lecablock",
+      "en": "Leca / expanded clay block",
+      "pl": "pustak keramzytowy",
+      "category": "masonry"
+    },
+    {
+      "sv": "siporex",
+      "en": "autoclaved aerated concrete (AAC)",
+      "pl": "gazobeton",
+      "category": "masonry"
+    },
+    {
+      "sv": "armeringsnät",
+      "en": "rebar mesh / welded wire mesh",
+      "pl": "siatka zbrojeniowa",
+      "category": "masonry"
+    },
+    {
+      "sv": "armeringsjärn",
+      "en": "rebar",
+      "pl": "pręt zbrojeniowy",
+      "category": "masonry"
+    },
+    {
+      "sv": "distansklots",
+      "en": "rebar spacer / chair",
+      "pl": "dystans zbrojeniowy",
+      "category": "masonry"
+    },
+    {
+      "sv": "gjutform",
+      "en": "concrete formwork",
+      "pl": "szalunek",
+      "category": "masonry"
+    },
+    {
+      "sv": "kvarsittande form",
+      "en": "stay-in-place formwork",
+      "pl": "szalunek tracony",
+      "category": "masonry"
+    },
+    {
+      "sv": "betongvibrator",
+      "en": "concrete vibrator",
+      "pl": "wibrator do betonu",
+      "category": "masonry"
+    },
+    {
+      "sv": "stålglättning",
+      "en": "power troweling / steel troweling",
+      "pl": "zacieranie betonu",
+      "category": "masonry"
+    },
+    {
+      "sv": "flyttillsats",
+      "en": "plasticizer / superplasticizer",
+      "pl": "plastyfikator / superplastyfikator",
+      "category": "masonry"
+    },
+    {
+      "sv": "frostskyddsmedel",
+      "en": "anti-freeze admixture",
+      "pl": "dodatek przeciwmrozowy",
+      "category": "masonry"
+    },
+    {
+      "sv": "PEX-rör",
+      "en": "PEX pipe",
+      "pl": "rura PEX",
+      "category": "plumbing"
+    },
+    {
+      "sv": "kopparrör",
+      "en": "copper pipe",
+      "pl": "rura miedziana",
+      "category": "plumbing"
+    },
+    {
+      "sv": "PP-rör",
+      "en": "polypropylene pipe",
+      "pl": "rura polipropylenowa",
+      "category": "plumbing"
+    },
+    {
+      "sv": "PEM-rör",
+      "en": "polyethylene pressure pipe",
+      "pl": "rura polietylenowa ciśnieniowa",
+      "category": "plumbing"
+    },
+    {
+      "sv": "pressrörskoppling",
+      "en": "press fitting",
+      "pl": "złączka zaciskowa",
+      "category": "plumbing"
+    },
+    {
+      "sv": "klämringskoppling",
+      "en": "compression fitting",
+      "pl": "złączka skręcana",
+      "category": "plumbing"
+    },
+    {
+      "sv": "lödfog",
+      "en": "soldered joint",
+      "pl": "połączenie lutowane",
+      "category": "plumbing"
+    },
+    {
+      "sv": "rörkrök",
+      "en": "pipe elbow",
+      "pl": "kolano rurowe",
+      "category": "plumbing"
+    },
+    {
+      "sv": "T-rör",
+      "en": "tee fitting",
+      "pl": "trójnik",
+      "category": "plumbing"
+    },
+    {
+      "sv": "reduceringsnippel",
+      "en": "reducer nipple",
+      "pl": "redukcja nyplowa",
+      "category": "plumbing"
+    },
+    {
+      "sv": "vattenlås",
+      "en": "P-trap / water trap",
+      "pl": "syfon",
+      "category": "plumbing"
+    },
+    {
+      "sv": "golvbrunn",
+      "en": "floor drain",
+      "pl": "wpust podłogowy",
+      "category": "plumbing"
+    },
+    {
+      "sv": "takbrunn",
+      "en": "roof drain",
+      "pl": "wpust dachowy",
+      "category": "plumbing"
+    },
+    {
+      "sv": "varmvattenberedare",
+      "en": "water heater / DHW tank",
+      "pl": "bojler / podgrzewacz wody",
+      "category": "plumbing"
+    },
+    {
+      "sv": "ackumulatortank",
+      "en": "buffer tank / accumulator tank",
+      "pl": "zbiornik buforowy",
+      "category": "plumbing"
+    },
+    {
+      "sv": "expansionskärl",
+      "en": "expansion vessel",
+      "pl": "naczynie wzbiorcze",
+      "category": "plumbing"
+    },
+    {
+      "sv": "tryckkärl",
+      "en": "pressure tank",
+      "pl": "zbiornik ciśnieniowy",
+      "category": "plumbing"
+    },
+    {
+      "sv": "hydrofor",
+      "en": "hydrophore / pressure booster",
+      "pl": "hydrofor",
+      "category": "plumbing"
+    },
+    {
+      "sv": "avstängningsventil",
+      "en": "shut-off valve",
+      "pl": "zawór odcinający",
+      "category": "plumbing"
+    },
+    {
+      "sv": "kulventil",
+      "en": "ball valve",
+      "pl": "zawór kulowy",
+      "category": "plumbing"
+    },
+    {
+      "sv": "backventil",
+      "en": "check valve / non-return valve",
+      "pl": "zawór zwrotny",
+      "category": "plumbing"
+    },
+    {
+      "sv": "återströmningsskydd",
+      "en": "backflow preventer",
+      "pl": "zabezpieczenie przed przepływem zwrotnym",
+      "category": "plumbing"
+    },
+    {
+      "sv": "säkerhetsventil",
+      "en": "safety relief valve",
+      "pl": "zawór bezpieczeństwa",
+      "category": "plumbing"
+    },
+    {
+      "sv": "blandarventil",
+      "en": "mixing valve",
+      "pl": "zawór mieszający",
+      "category": "plumbing"
+    },
+    {
+      "sv": "termostatblandare",
+      "en": "thermostatic mixer",
+      "pl": "bateria termostatyczna",
+      "category": "plumbing"
+    },
+    {
+      "sv": "rörkopplare",
+      "en": "pipe coupling",
+      "pl": "mufa łącząca",
+      "category": "plumbing"
+    },
+    {
+      "sv": "rensluckan",
+      "en": "cleanout / inspection opening",
+      "pl": "rewizja kanalizacyjna",
+      "category": "plumbing"
+    },
+    {
+      "sv": "slamavskiljare",
+      "en": "septic tank / sludge separator",
+      "pl": "osadnik gnilny",
+      "category": "plumbing"
+    },
+    {
+      "sv": "fettavskiljare",
+      "en": "grease trap",
+      "pl": "separator tłuszczu",
+      "category": "plumbing"
+    },
+    {
+      "sv": "oljeavskiljare",
+      "en": "oil separator",
+      "pl": "separator oleju",
+      "category": "plumbing"
+    },
+    {
+      "sv": "dagvatten",
+      "en": "stormwater",
+      "pl": "wody opadowe",
+      "category": "plumbing"
+    },
+    {
+      "sv": "spillvatten",
+      "en": "wastewater / foul water",
+      "pl": "ścieki bytowe",
+      "category": "plumbing"
+    },
+    {
+      "sv": "rörisolering",
+      "en": "pipe insulation",
+      "pl": "izolacja rurociągów",
+      "category": "plumbing"
+    },
+    {
+      "sv": "frostsäker ventil",
+      "en": "frost-proof valve",
+      "pl": "zawór mrozoodporny",
+      "category": "plumbing"
+    },
+    {
+      "sv": "läckageindikator",
+      "en": "leak detector",
+      "pl": "czujnik wycieku",
+      "category": "plumbing"
+    },
+    {
+      "sv": "dvärgbrytare",
+      "en": "miniature circuit breaker (MCB)",
+      "pl": "wyłącznik nadprądowy",
+      "category": "electrical"
+    },
+    {
+      "sv": "effektbrytare",
+      "en": "molded case circuit breaker (MCCB)",
+      "pl": "wyłącznik kompaktowy",
+      "category": "electrical"
+    },
+    {
+      "sv": "kombinerad jordfelsbrytare",
+      "en": "RCBO (combined RCD and MCB)",
+      "pl": "wyłącznik różnicowo-nadprądowy",
+      "category": "electrical"
+    },
+    {
+      "sv": "jordfelsbrytare typ A",
+      "en": "type A RCD",
+      "pl": "wyłącznik różnicowoprądowy typ A",
+      "category": "electrical"
+    },
+    {
+      "sv": "jordfelsbrytare typ B",
+      "en": "type B RCD",
+      "pl": "wyłącznik różnicowoprądowy typ B",
+      "category": "electrical"
+    },
+    {
+      "sv": "överspänningsskydd",
+      "en": "surge protection device (SPD)",
+      "pl": "ogranicznik przepięć",
+      "category": "electrical"
+    },
+    {
+      "sv": "huvudsäkring",
+      "en": "main fuse",
+      "pl": "bezpiecznik główny",
+      "category": "electrical"
+    },
+    {
+      "sv": "EKK-kabel",
+      "en": "EKK cable (armored power cable)",
+      "pl": "kabel EKK",
+      "category": "electrical"
+    },
+    {
+      "sv": "FK-ledare",
+      "en": "FK conductor (single-core flexible)",
+      "pl": "przewód FK (linka jednożyłowa)",
+      "category": "electrical"
+    },
+    {
+      "sv": "RDOE-kabel",
+      "en": "RDOE outdoor cable",
+      "pl": "kabel zewnętrzny RDOE",
+      "category": "electrical"
+    },
+    {
+      "sv": "EKLK-kabel",
+      "en": "EKLK flat indoor cable",
+      "pl": "kabel płaski EKLK",
+      "category": "electrical"
+    },
+    {
+      "sv": "installationskabel",
+      "en": "installation cable",
+      "pl": "kabel instalacyjny",
+      "category": "electrical"
+    },
+    {
+      "sv": "kabelstege",
+      "en": "cable ladder",
+      "pl": "drabinka kablowa",
+      "category": "electrical"
+    },
+    {
+      "sv": "kabelränna",
+      "en": "cable tray",
+      "pl": "korytko kablowe",
+      "category": "electrical"
+    },
+    {
+      "sv": "elrör",
+      "en": "electrical conduit",
+      "pl": "rura instalacyjna elektryczna",
+      "category": "electrical"
+    },
+    {
+      "sv": "kabelrör",
+      "en": "cable conduit",
+      "pl": "peszel kablowy",
+      "category": "electrical"
+    },
+    {
+      "sv": "kopplingsdosa",
+      "en": "junction box",
+      "pl": "puszka rozgałęźna",
+      "category": "electrical"
+    },
+    {
+      "sv": "apparatdosa",
+      "en": "device box / back box",
+      "pl": "puszka podtynkowa",
+      "category": "electrical"
+    },
+    {
+      "sv": "jordtag",
+      "en": "earth electrode",
+      "pl": "uziom",
+      "category": "electrical"
+    },
+    {
+      "sv": "jordlina",
+      "en": "earth bonding conductor",
+      "pl": "przewód uziemiający",
+      "category": "electrical"
+    },
+    {
+      "sv": "potentialutjämning",
+      "en": "equipotential bonding",
+      "pl": "połączenia wyrównawcze",
+      "category": "electrical"
+    },
+    {
+      "sv": "skyddsjord",
+      "en": "protective earth (PE)",
+      "pl": "przewód ochronny PE",
+      "category": "electrical"
+    },
+    {
+      "sv": "nolledare",
+      "en": "neutral conductor",
+      "pl": "przewód neutralny",
+      "category": "electrical"
+    },
+    {
+      "sv": "faseld",
+      "en": "live / phase conductor",
+      "pl": "przewód fazowy",
+      "category": "electrical"
+    },
+    {
+      "sv": "trefas",
+      "en": "three-phase",
+      "pl": "trójfazowy",
+      "category": "electrical"
+    },
+    {
+      "sv": "enfas",
+      "en": "single-phase",
+      "pl": "jednofazowy",
+      "category": "electrical"
+    },
+    {
+      "sv": "gruppcentral",
+      "en": "distribution board / sub-panel",
+      "pl": "rozdzielnica oddziałowa",
+      "category": "electrical"
+    },
+    {
+      "sv": "mätarskåp",
+      "en": "meter cabinet",
+      "pl": "szafka licznikowa",
+      "category": "electrical"
+    },
+    {
+      "sv": "elmätare",
+      "en": "electricity meter",
+      "pl": "licznik energii elektrycznej",
+      "category": "electrical"
+    },
+    {
+      "sv": "energimätare",
+      "en": "energy meter / kWh meter",
+      "pl": "miernik energii",
+      "category": "electrical"
+    },
+    {
+      "sv": "servisledning",
+      "en": "service line / utility connection",
+      "pl": "przyłącze energetyczne",
+      "category": "electrical"
+    },
+    {
+      "sv": "elservis",
+      "en": "electrical service entrance",
+      "pl": "przyłącze elektryczne",
+      "category": "electrical"
+    },
+    {
+      "sv": "strömställare",
+      "en": "switch",
+      "pl": "łącznik instalacyjny",
+      "category": "electrical"
+    },
+    {
+      "sv": "kontaktor",
+      "en": "contactor",
+      "pl": "stycznik",
+      "category": "electrical"
+    },
+    {
+      "sv": "motorskydd",
+      "en": "motor protection switch",
+      "pl": "wyłącznik silnikowy",
+      "category": "electrical"
+    },
+    {
+      "sv": "ventilationskanal",
+      "en": "ventilation duct",
+      "pl": "kanał wentylacyjny",
+      "category": "hvac"
+    },
+    {
+      "sv": "spirorör",
+      "en": "spiral duct",
+      "pl": "kanał spiro",
+      "category": "hvac"
+    },
+    {
+      "sv": "rektangulär kanal",
+      "en": "rectangular duct",
+      "pl": "kanał prostokątny",
+      "category": "hvac"
+    },
+    {
+      "sv": "flexibel slang",
+      "en": "flexible duct",
+      "pl": "przewód elastyczny",
+      "category": "hvac"
+    },
+    {
+      "sv": "spjäll",
+      "en": "damper",
+      "pl": "przepustnica",
+      "category": "hvac"
+    },
+    {
+      "sv": "brandspjäll",
+      "en": "fire damper",
+      "pl": "klapa przeciwpożarowa",
+      "category": "hvac"
+    },
+    {
+      "sv": "bakdragsspjäll",
+      "en": "backdraft damper",
+      "pl": "klapa zwrotna",
+      "category": "hvac"
+    },
+    {
+      "sv": "strypspjäll",
+      "en": "throttling damper / balancing damper",
+      "pl": "przepustnica regulacyjna",
+      "category": "hvac"
+    },
+    {
+      "sv": "tilluftsdon",
+      "en": "supply air diffuser",
+      "pl": "nawiewnik",
+      "category": "hvac"
+    },
+    {
+      "sv": "frånluftsdon",
+      "en": "extract air grille",
+      "pl": "wyciąg powietrza",
+      "category": "hvac"
+    },
+    {
+      "sv": "överluftsdon",
+      "en": "transfer grille",
+      "pl": "kratka przelotowa",
+      "category": "hvac"
+    },
+    {
+      "sv": "takdon",
+      "en": "ceiling diffuser",
+      "pl": "nawiewnik sufitowy",
+      "category": "hvac"
+    },
+    {
+      "sv": "dysdon",
+      "en": "nozzle diffuser",
+      "pl": "dysza nawiewna",
+      "category": "hvac"
+    },
+    {
+      "sv": "luftbehandlingsaggregat",
+      "en": "air handling unit (AHU)",
+      "pl": "centrala wentylacyjna",
+      "category": "hvac"
+    },
+    {
+      "sv": "tilluftsfläkt",
+      "en": "supply fan",
+      "pl": "wentylator nawiewny",
+      "category": "hvac"
+    },
+    {
+      "sv": "frånluftsfläkt",
+      "en": "exhaust fan",
+      "pl": "wentylator wyciągowy",
+      "category": "hvac"
+    },
+    {
+      "sv": "kanalfläkt",
+      "en": "inline duct fan",
+      "pl": "wentylator kanałowy",
+      "category": "hvac"
+    },
+    {
+      "sv": "takfläkt",
+      "en": "roof fan",
+      "pl": "wentylator dachowy",
+      "category": "hvac"
+    },
+    {
+      "sv": "värmebatteri",
+      "en": "heating coil",
+      "pl": "nagrzewnica",
+      "category": "hvac"
+    },
+    {
+      "sv": "kylbatteri",
+      "en": "cooling coil",
+      "pl": "chłodnica",
+      "category": "hvac"
+    },
+    {
+      "sv": "värmeväxlare",
+      "en": "heat exchanger",
+      "pl": "wymiennik ciepła",
+      "category": "hvac"
+    },
+    {
+      "sv": "roterande värmeväxlare",
+      "en": "rotary heat exchanger",
+      "pl": "wymiennik obrotowy",
+      "category": "hvac"
+    },
+    {
+      "sv": "plattvärmeväxlare",
+      "en": "plate heat exchanger",
+      "pl": "wymiennik płytowy",
+      "category": "hvac"
+    },
+    {
+      "sv": "luftfilter",
+      "en": "air filter",
+      "pl": "filtr powietrza",
+      "category": "hvac"
+    },
+    {
+      "sv": "MERV-klass",
+      "en": "MERV rating",
+      "pl": "klasa MERV",
+      "category": "hvac"
+    },
+    {
+      "sv": "ISO-filterklass",
+      "en": "ISO 16890 filter class",
+      "pl": "klasa filtra ISO 16890",
+      "category": "hvac"
+    },
+    {
+      "sv": "injustering",
+      "en": "commissioning / balancing",
+      "pl": "regulacja instalacji",
+      "category": "hvac"
+    },
+    {
+      "sv": "luftflöde",
+      "en": "air flow rate",
+      "pl": "przepływ powietrza",
+      "category": "hvac"
+    },
+    {
+      "sv": "tryckfall",
+      "en": "pressure drop",
+      "pl": "strata ciśnienia",
+      "category": "hvac"
+    },
+    {
+      "sv": "ljuddämpare",
+      "en": "duct silencer / attenuator",
+      "pl": "tłumik akustyczny",
+      "category": "hvac"
+    },
+    {
+      "sv": "solpanel",
+      "en": "solar PV panel",
+      "pl": "panel fotowoltaiczny",
+      "category": "energy"
+    },
+    {
+      "sv": "solcellsmodul",
+      "en": "PV module",
+      "pl": "moduł fotowoltaiczny",
+      "category": "energy"
+    },
+    {
+      "sv": "strängväxelriktare",
+      "en": "string inverter",
+      "pl": "falownik łańcuchowy",
+      "category": "energy"
+    },
+    {
+      "sv": "mikroväxelriktare",
+      "en": "microinverter",
+      "pl": "mikrofalownik",
+      "category": "energy"
+    },
+    {
+      "sv": "hybridväxelriktare",
+      "en": "hybrid inverter",
+      "pl": "falownik hybrydowy",
+      "category": "energy"
+    },
+    {
+      "sv": "batterilager",
+      "en": "battery storage / ESS",
+      "pl": "magazyn energii",
+      "category": "energy"
+    },
+    {
+      "sv": "litiumjonbatteri",
+      "en": "lithium-ion battery",
+      "pl": "akumulator litowo-jonowy",
+      "category": "energy"
+    },
+    {
+      "sv": "laddregulator",
+      "en": "charge controller",
+      "pl": "regulator ładowania",
+      "category": "energy"
+    },
+    {
+      "sv": "frånkopplingsrelä",
+      "en": "grid disconnect relay",
+      "pl": "przekaźnik odłączający",
+      "category": "energy"
+    },
+    {
+      "sv": "COP-värde",
+      "en": "COP (Coefficient of Performance)",
+      "pl": "współczynnik COP",
+      "category": "energy"
+    },
+    {
+      "sv": "SCOP-värde",
+      "en": "SCOP (Seasonal COP)",
+      "pl": "sezonowy współczynnik SCOP",
+      "category": "energy"
+    },
+    {
+      "sv": "frånluftsvärmepump",
+      "en": "exhaust air heat pump",
+      "pl": "pompa ciepła powietrze wywiewane",
+      "category": "energy"
+    },
+    {
+      "sv": "kollektorslang",
+      "en": "ground loop / collector pipe",
+      "pl": "kolektor gruntowy",
+      "category": "energy"
+    },
+    {
+      "sv": "borrhål",
+      "en": "geothermal borehole",
+      "pl": "odwiert geotermalny",
+      "category": "energy"
+    },
+    {
+      "sv": "ytjordvärme",
+      "en": "horizontal ground loop / surface geothermal",
+      "pl": "poziomy wymiennik gruntowy",
+      "category": "energy"
+    },
+    {
+      "sv": "energiklass",
+      "en": "energy label / energy class",
+      "pl": "klasa energetyczna",
+      "category": "energy"
+    },
+    {
+      "sv": "U-värde",
+      "en": "U-value (thermal transmittance)",
+      "pl": "współczynnik przenikania ciepła U",
+      "category": "energy"
+    },
+    {
+      "sv": "lambdavärde",
+      "en": "lambda value (thermal conductivity)",
+      "pl": "współczynnik lambda",
+      "category": "energy"
+    },
+    {
+      "sv": "köldbrygga",
+      "en": "thermal bridge",
+      "pl": "mostek termiczny",
+      "category": "energy"
+    },
+    {
+      "sv": "lufttäthet",
+      "en": "airtightness",
+      "pl": "szczelność powietrzna",
+      "category": "energy"
+    },
+    {
+      "sv": "skyddshandskar",
+      "en": "safety gloves",
+      "pl": "rękawice ochronne",
+      "category": "safety"
+    },
+    {
+      "sv": "skyddsskor",
+      "en": "safety footwear",
+      "pl": "obuwie ochronne",
+      "category": "safety"
+    },
+    {
+      "sv": "varselväst",
+      "en": "high-visibility vest",
+      "pl": "kamizelka odblaskowa",
+      "category": "safety"
+    },
+    {
+      "sv": "rullställning",
+      "en": "mobile scaffold tower",
+      "pl": "rusztowanie jezdne",
+      "category": "safety"
+    },
+    {
+      "sv": "fästpunkt",
+      "en": "anchor point",
+      "pl": "punkt kotwiczenia",
+      "category": "safety"
+    },
+    {
+      "sv": "fallskydd",
+      "en": "fall arrest system",
+      "pl": "system zabezpieczenia przed upadkiem",
+      "category": "safety"
+    },
+    {
+      "sv": "livlina",
+      "en": "lifeline",
+      "pl": "lina asekuracyjna",
+      "category": "safety"
+    },
+    {
+      "sv": "brandklass EI30",
+      "en": "fire rating EI30",
+      "pl": "klasa odporności ogniowej EI30",
+      "category": "safety"
+    },
+    {
+      "sv": "brandklass EI60",
+      "en": "fire rating EI60",
+      "pl": "klasa odporności ogniowej EI60",
+      "category": "safety"
+    },
+    {
+      "sv": "brandcell",
+      "en": "fire compartment",
+      "pl": "strefa pożarowa",
+      "category": "safety"
+    },
+    {
+      "sv": "nödutgång",
+      "en": "emergency exit",
+      "pl": "wyjście ewakuacyjne",
+      "category": "safety"
+    },
+    {
+      "sv": "utrymningsväg",
+      "en": "escape route",
+      "pl": "droga ewakuacyjna",
+      "category": "safety"
+    },
+    {
+      "sv": "brandsläckare",
+      "en": "fire extinguisher",
+      "pl": "gaśnica",
+      "category": "safety"
+    },
+    {
+      "sv": "brandvarnare",
+      "en": "smoke alarm",
+      "pl": "czujnik dymu",
+      "category": "safety"
+    },
+    {
+      "sv": "första hjälpen",
+      "en": "first aid",
+      "pl": "pierwsza pomoc",
+      "category": "safety"
+    },
+    {
+      "sv": "arbetstillstånd",
+      "en": "permit-to-work",
+      "pl": "zezwolenie na pracę",
+      "category": "safety"
+    },
+    {
+      "sv": "heta arbeten",
+      "en": "hot work (permit)",
+      "pl": "prace niebezpieczne pożarowo",
+      "category": "safety"
+    },
+    {
+      "sv": "ÄTA-arbete",
+      "en": "change order work (additional/altered/omitted)",
+      "pl": "prace dodatkowe i zamienne",
+      "category": "contract"
+    },
+    {
+      "sv": "likabehandlingsprincip",
+      "en": "principle of equal treatment",
+      "pl": "zasada równego traktowania",
+      "category": "contract"
+    },
+    {
+      "sv": "vite",
+      "en": "liquidated damages / contractual penalty",
+      "pl": "kara umowna",
+      "category": "contract"
+    },
+    {
+      "sv": "förseningsvite",
+      "en": "delay liquidated damages",
+      "pl": "kara umowna za opóźnienie",
+      "category": "contract"
+    },
+    {
+      "sv": "innehållen ersättning",
+      "en": "retention / retainage",
+      "pl": "kaucja gwarancyjna",
+      "category": "contract"
+    },
+    {
+      "sv": "säkerhet",
+      "en": "performance security / bond",
+      "pl": "zabezpieczenie wykonania",
+      "category": "contract"
+    },
+    {
+      "sv": "fullgörandegaranti",
+      "en": "performance bond",
+      "pl": "gwarancja należytego wykonania",
+      "category": "contract"
+    },
+    {
+      "sv": "garantitid",
+      "en": "defects liability period / warranty period",
+      "pl": "okres gwarancji",
+      "category": "contract"
+    },
+    {
+      "sv": "ansvarstid",
+      "en": "liability period (10 years AB 04)",
+      "pl": "okres odpowiedzialności (10-letni)",
+      "category": "contract"
+    },
+    {
+      "sv": "preskription",
+      "en": "time-bar / limitation",
+      "pl": "przedawnienie",
+      "category": "contract"
+    },
+    {
+      "sv": "reklamation",
+      "en": "notice of defect / complaint",
+      "pl": "reklamacja",
+      "category": "contract"
+    },
+    {
+      "sv": "hävning",
+      "en": "termination of contract",
+      "pl": "odstąpienie od umowy",
+      "category": "contract"
+    },
+    {
+      "sv": "avhjälpande",
+      "en": "remedying of defects",
+      "pl": "usunięcie wad",
+      "category": "contract"
+    },
+    {
+      "sv": "fel i entreprenaden",
+      "en": "defect in the works",
+      "pl": "wada w robotach",
+      "category": "contract"
+    },
+    {
+      "sv": "dolt fel",
+      "en": "latent defect",
+      "pl": "wada ukryta",
+      "category": "contract"
+    },
+    {
+      "sv": "väsentligt fel",
+      "en": "material defect",
+      "pl": "wada istotna",
+      "category": "contract"
+    },
+    {
+      "sv": "huvudentreprenör",
+      "en": "main contractor",
+      "pl": "generalny wykonawca",
+      "category": "contract"
+    },
+    {
+      "sv": "sidoentreprenör",
+      "en": "parallel contractor",
+      "pl": "wykonawca równoległy",
+      "category": "contract"
+    },
+    {
+      "sv": "generalentreprenad",
+      "en": "general contract",
+      "pl": "kontrakt generalny",
+      "category": "contract"
+    },
+    {
+      "sv": "delad entreprenad",
+      "en": "split contract",
+      "pl": "kontrakt dzielony",
+      "category": "contract"
+    },
+    {
+      "sv": "riktkostnad",
+      "en": "target cost",
+      "pl": "koszt docelowy",
+      "category": "contract"
+    },
+    {
+      "sv": "löpande räkning",
+      "en": "cost-plus / time and materials",
+      "pl": "rozliczenie kosztowe",
+      "category": "contract"
+    },
+    {
+      "sv": "fast pris",
+      "en": "fixed price",
+      "pl": "cena ryczałtowa",
+      "category": "contract"
+    },
+    {
+      "sv": "à-prislista",
+      "en": "unit price schedule",
+      "pl": "cennik jednostkowy",
+      "category": "contract"
+    },
+    {
+      "sv": "indexreglering",
+      "en": "price index adjustment",
+      "pl": "waloryzacja cen",
+      "category": "contract"
+    },
+    {
+      "sv": "force majeure-klausul",
+      "en": "force majeure clause",
+      "pl": "klauzula siły wyższej",
+      "category": "contract"
+    },
+    {
+      "sv": "underrättelseskyldighet",
+      "en": "duty to notify",
+      "pl": "obowiązek zawiadomienia",
+      "category": "contract"
+    },
+    {
+      "sv": "skriftlig underrättelse",
+      "en": "written notice",
+      "pl": "zawiadomienie pisemne",
+      "category": "contract"
+    },
+    {
+      "sv": "beställaransvar",
+      "en": "client's liability",
+      "pl": "odpowiedzialność zamawiającego",
+      "category": "contract"
+    },
+    {
+      "sv": "entreprenadkontrakt",
+      "en": "construction contract",
+      "pl": "umowa o roboty budowlane",
+      "category": "contract"
+    },
+    {
+      "sv": "kontraktssumma",
+      "en": "contract sum",
+      "pl": "wartość umowy",
+      "category": "contract"
+    },
+    {
+      "sv": "slutlikvid",
+      "en": "final payment",
+      "pl": "płatność końcowa",
+      "category": "contract"
+    },
+    {
+      "sv": "a conto-faktura",
+      "en": "interim invoice / on-account invoice",
+      "pl": "faktura częściowa",
+      "category": "contract"
+    },
+    {
+      "sv": "försäkringsplikt",
+      "en": "insurance obligation",
+      "pl": "obowiązek ubezpieczenia",
+      "category": "contract"
+    },
+    {
+      "sv": "allriskförsäkring",
+      "en": "contractors all-risk insurance (CAR)",
+      "pl": "ubezpieczenie CAR wszystkich ryzyk budowy",
+      "category": "contract"
+    },
+    {
+      "sv": "översiktsplan",
+      "en": "comprehensive municipal plan",
+      "pl": "studium zagospodarowania gminy",
+      "category": "permit"
+    },
+    {
+      "sv": "områdesbestämmelser",
+      "en": "area regulations",
+      "pl": "przepisy obszarowe",
+      "category": "permit"
+    },
+    {
+      "sv": "byggnadsnämnden",
+      "en": "municipal building committee",
+      "pl": "komisja budowlana gminy",
+      "category": "permit"
+    },
+    {
+      "sv": "plan- och bygglagen",
+      "en": "Planning and Building Act (PBL)",
+      "pl": "ustawa o planowaniu i budownictwie (PBL)",
+      "category": "permit"
+    },
+    {
+      "sv": "PBF",
+      "en": "Planning and Building Ordinance",
+      "pl": "rozporządzenie planistyczno-budowlane",
+      "category": "permit"
+    },
+    {
+      "sv": "nybyggnadskarta",
+      "en": "site plan map / new-build map",
+      "pl": "mapa do celów projektowych",
+      "category": "permit"
+    },
+    {
+      "sv": "situationsplan",
+      "en": "site plan",
+      "pl": "plan zagospodarowania działki",
+      "category": "permit"
+    },
+    {
+      "sv": "grannemedgivande",
+      "en": "neighbour's consent",
+      "pl": "zgoda sąsiada",
+      "category": "permit"
+    },
+    {
+      "sv": "grannehörande",
+      "en": "neighbour consultation",
+      "pl": "wysłuchanie sąsiadów",
+      "category": "permit"
+    },
+    {
+      "sv": "bygganmälan",
+      "en": "building notification",
+      "pl": "zgłoszenie budowy",
+      "category": "permit"
+    },
+    {
+      "sv": "anmälningspliktig åtgärd",
+      "en": "notification-required work",
+      "pl": "roboty wymagające zgłoszenia",
+      "category": "permit"
+    },
+    {
+      "sv": "bygglovspliktig åtgärd",
+      "en": "permit-required work",
+      "pl": "roboty wymagające pozwolenia",
+      "category": "permit"
+    },
+    {
+      "sv": "servitut",
+      "en": "easement",
+      "pl": "służebność gruntowa",
+      "category": "permit"
+    },
+    {
+      "sv": "exploateringsavtal",
+      "en": "development agreement",
+      "pl": "umowa deweloperska z gminą",
+      "category": "permit"
+    },
+    {
+      "sv": "fastighetsbildning",
+      "en": "property formation / subdivision",
+      "pl": "podział nieruchomości",
+      "category": "permit"
+    },
+    {
+      "sv": "lantmäteriförrättning",
+      "en": "cadastral procedure",
+      "pl": "postępowanie geodezyjne",
+      "category": "permit"
+    },
+    {
+      "sv": "strandskydd",
+      "en": "shoreline protection",
+      "pl": "ochrona linii brzegowej",
+      "category": "permit"
+    },
+    {
+      "sv": "riksintresse",
+      "en": "national interest area",
+      "pl": "obszar interesu narodowego",
+      "category": "permit"
+    },
+    {
+      "sv": "planbesked",
+      "en": "planning notice / planning decision",
+      "pl": "decyzja planistyczna",
+      "category": "permit"
+    },
+    {
+      "sv": "bygglovsritning",
+      "en": "permit drawing",
+      "pl": "rysunek do pozwolenia",
+      "category": "permit"
+    },
+    {
+      "sv": "fasadritning",
+      "en": "facade drawing / elevation",
+      "pl": "rysunek elewacji",
+      "category": "permit"
+    },
+    {
+      "sv": "planritning",
+      "en": "floor plan drawing",
+      "pl": "rysunek rzutu",
+      "category": "permit"
+    },
+    {
+      "sv": "sektionsritning",
+      "en": "section drawing",
+      "pl": "rysunek przekroju",
+      "category": "permit"
+    },
+    {
+      "sv": "beviljat bygglov",
+      "en": "granted building permit",
+      "pl": "pozwolenie udzielone",
+      "category": "permit"
+    },
+    {
+      "sv": "avslag",
+      "en": "rejection / refusal",
+      "pl": "odmowa",
+      "category": "permit"
+    },
+    {
+      "sv": "entreprenadbesiktning",
+      "en": "contract works inspection",
+      "pl": "odbiór robót kontraktowych",
+      "category": "inspection"
+    },
+    {
+      "sv": "förbesiktning",
+      "en": "preliminary inspection",
+      "pl": "odbiór wstępny",
+      "category": "inspection"
+    },
+    {
+      "sv": "efterbesiktning",
+      "en": "follow-up inspection",
+      "pl": "odbiór ponowny",
+      "category": "inspection"
+    },
+    {
+      "sv": "särskild besiktning",
+      "en": "special inspection",
+      "pl": "odbiór szczególny",
+      "category": "inspection"
+    },
+    {
+      "sv": "överbesiktning",
+      "en": "review inspection / appeal inspection",
+      "pl": "odbiór odwoławczy",
+      "category": "inspection"
+    },
+    {
+      "sv": "besiktningsutlåtande",
+      "en": "inspection report / statement",
+      "pl": "protokół odbioru",
+      "category": "inspection"
+    },
+    {
+      "sv": "besiktningsprotokoll",
+      "en": "inspection protocol",
+      "pl": "protokół kontroli",
+      "category": "inspection"
+    },
+    {
+      "sv": "anmärkning",
+      "en": "remark / defect note",
+      "pl": "uwaga / zastrzeżenie",
+      "category": "inspection"
+    },
+    {
+      "sv": "reservation",
+      "en": "reservation / qualification",
+      "pl": "zastrzeżenie",
+      "category": "inspection"
+    },
+    {
+      "sv": "godkänd",
+      "en": "approved / passed",
+      "pl": "zatwierdzony",
+      "category": "inspection"
+    },
+    {
+      "sv": "icke godkänd",
+      "en": "not approved / failed",
+      "pl": "niezatwierdzony",
+      "category": "inspection"
+    },
+    {
+      "sv": "avhjälpt anmärkning",
+      "en": "remedied remark",
+      "pl": "uwaga usunięta",
+      "category": "inspection"
+    },
+    {
+      "sv": "slutbesiktningsprotokoll",
+      "en": "final inspection report",
+      "pl": "protokół odbioru końcowego",
+      "category": "inspection"
+    },
+    {
+      "sv": "huvudbesiktningsman",
+      "en": "lead inspector",
+      "pl": "główny inspektor",
+      "category": "inspection"
+    },
+    {
+      "sv": "biträdande besiktningsman",
+      "en": "assistant inspector",
+      "pl": "inspektor pomocniczy",
+      "category": "inspection"
+    },
+    {
+      "sv": "radonmätning",
+      "en": "radon measurement",
+      "pl": "pomiar radonu",
+      "category": "inspection"
+    },
+    {
+      "sv": "termografering",
+      "en": "thermographic survey",
+      "pl": "badanie termowizyjne",
+      "category": "inspection"
+    },
+    {
+      "sv": "provtryckning",
+      "en": "pressure test",
+      "pl": "próba ciśnieniowa",
+      "category": "inspection"
+    },
+    {
+      "sv": "täthetsprovning",
+      "en": "airtightness test (blower door)",
+      "pl": "test szczelności budynku",
+      "category": "inspection"
+    },
+    {
+      "sv": "ljudmätning",
+      "en": "sound level measurement",
+      "pl": "pomiar poziomu dźwięku",
+      "category": "inspection"
+    },
+    {
+      "sv": "injusteringsprotokoll",
+      "en": "commissioning/balancing report",
+      "pl": "protokół regulacji instalacji",
+      "category": "inspection"
+    },
+    {
+      "sv": "driftsättning",
+      "en": "commissioning",
+      "pl": "rozruch technologiczny",
+      "category": "inspection"
+    },
+    {
+      "sv": "relationsritning",
+      "en": "as-built drawing",
+      "pl": "rysunek powykonawczy",
+      "category": "inspection"
+    },
+    {
+      "sv": "slutdokumentation",
+      "en": "handover documentation",
+      "pl": "dokumentacja powykonawcza",
+      "category": "inspection"
+    },
+    {
+      "sv": "garantitidens utgång",
+      "en": "end of warranty period",
+      "pl": "upływ okresu gwarancji",
+      "category": "inspection"
+    },
+    {
+      "sv": "skattereduktion",
+      "en": "tax reduction / tax credit",
+      "pl": "ulga podatkowa",
+      "category": "taxation"
+    },
+    {
+      "sv": "arbetsgivaravgift",
+      "en": "employer social security contribution",
+      "pl": "składka pracodawcy",
+      "category": "taxation"
+    },
+    {
+      "sv": "egenavgifter",
+      "en": "self-employed contributions",
+      "pl": "składki własne samozatrudnionego",
+      "category": "taxation"
+    },
+    {
+      "sv": "omvänd skattskyldighet",
+      "en": "reverse VAT liability",
+      "pl": "odwrotne obciążenie VAT",
+      "category": "taxation"
+    },
+    {
+      "sv": "A-skatt",
+      "en": "A-tax (employee withholding)",
+      "pl": "A-skatt (podatek od wynagrodzeń)",
+      "category": "taxation"
+    },
+    {
+      "sv": "FA-skatt",
+      "en": "combined F and A tax status",
+      "pl": "status FA-skatt",
+      "category": "taxation"
+    },
+    {
+      "sv": "SNI-kod",
+      "en": "industry classification code (SNI)",
+      "pl": "kod klasyfikacji działalności SNI",
+      "category": "taxation"
+    },
+    {
+      "sv": "mervärdesskatt",
+      "en": "value added tax (VAT)",
+      "pl": "podatek od towarów i usług (VAT)",
+      "category": "taxation"
+    },
+    {
+      "sv": "moms 25 procent",
+      "en": "25% standard VAT rate",
+      "pl": "stawka VAT 25%",
+      "category": "taxation"
+    },
+    {
+      "sv": "moms 12 procent",
+      "en": "12% reduced VAT rate",
+      "pl": "stawka VAT 12%",
+      "category": "taxation"
+    },
+    {
+      "sv": "moms 6 procent",
+      "en": "6% reduced VAT rate",
+      "pl": "stawka VAT 6%",
+      "category": "taxation"
+    },
+    {
+      "sv": "momsregistrering",
+      "en": "VAT registration",
+      "pl": "rejestracja VAT",
+      "category": "taxation"
+    },
+    {
+      "sv": "skattedeklaration",
+      "en": "tax return / declaration",
+      "pl": "deklaracja podatkowa",
+      "category": "taxation"
+    },
+    {
+      "sv": "skatteverket",
+      "en": "Swedish Tax Agency",
+      "pl": "Szwedzki Urząd Skarbowy",
+      "category": "taxation"
+    },
+    {
+      "sv": "organisationsnummer",
+      "en": "corporate identity number",
+      "pl": "numer identyfikacji podmiotu",
+      "category": "taxation"
+    },
+    {
+      "sv": "personnummer",
+      "en": "personal identity number",
+      "pl": "szwedzki numer osobisty",
+      "category": "taxation"
+    },
+    {
+      "sv": "kontrolluppgift",
+      "en": "income statement (tax)",
+      "pl": "informacja podatkowa",
+      "category": "taxation"
+    },
+    {
+      "sv": "skattsedel",
+      "en": "tax assessment notice",
+      "pl": "decyzja podatkowa",
+      "category": "taxation"
+    },
+    {
+      "sv": "utbetalningsdag",
+      "en": "payout/remittance date",
+      "pl": "dzień wypłaty",
+      "category": "taxation"
+    },
+    {
+      "sv": "ROT-underlag",
+      "en": "ROT claim documentation",
+      "pl": "dokumenty do ulgi ROT",
+      "category": "taxation"
+    },
+    {
+      "sv": "köparens ansvar",
+      "en": "buyer's ROT/RUT liability",
+      "pl": "odpowiedzialność nabywcy przy uldze",
+      "category": "taxation"
+    },
+    {
+      "sv": "arbetskostnad",
+      "en": "labour cost (ROT-eligible)",
+      "pl": "koszt robocizny kwalifikujący się do ulgi",
+      "category": "taxation"
+    },
+    {
+      "sv": "materialkostnad",
+      "en": "material cost (not ROT-eligible)",
+      "pl": "koszt materiału (poza ulgą)",
+      "category": "taxation"
+    },
+    {
+      "sv": "utbetalning från Skatteverket",
+      "en": "ROT payout from tax agency",
+      "pl": "wypłata z urzędu skarbowego",
+      "category": "taxation"
+    },
+    {
+      "sv": "skattefri ersättning",
+      "en": "tax-exempt compensation",
+      "pl": "wynagrodzenie nieopodatkowane",
+      "category": "taxation"
+    },
+    {
+      "sv": "utförandeentreprenad",
+      "en": "construction contract (design-bid-build)",
+      "pl": "kontrakt wykonawczy",
+      "category": "process"
+    },
+    {
+      "sv": "totalentreprenad",
+      "en": "design-build / turnkey contract",
+      "pl": "kontrakt pod klucz",
+      "category": "process"
+    },
+    {
+      "sv": "samverkansentreprenad",
+      "en": "partnering/collaborative contract",
+      "pl": "kontrakt partnerski",
+      "category": "process"
+    },
+    {
+      "sv": "partnering",
+      "en": "partnering model",
+      "pl": "model partnerstwa",
+      "category": "process"
+    },
+    {
+      "sv": "upphandling",
+      "en": "procurement",
+      "pl": "zamówienie publiczne",
+      "category": "process"
+    },
+    {
+      "sv": "LOU",
+      "en": "Public Procurement Act (LOU)",
+      "pl": "ustawa o zamówieniach publicznych (LOU)",
+      "category": "process"
+    },
+    {
+      "sv": "förfrågningsunderlag",
+      "en": "tender documents",
+      "pl": "dokumentacja przetargowa",
+      "category": "process"
+    },
+    {
+      "sv": "anbudsförfarande",
+      "en": "tender procedure",
+      "pl": "procedura przetargowa",
+      "category": "process"
+    },
+    {
+      "sv": "direktupphandling",
+      "en": "direct award procurement",
+      "pl": "zamówienie z wolnej ręki",
+      "category": "process"
+    },
+    {
+      "sv": "ramavtal",
+      "en": "framework agreement",
+      "pl": "umowa ramowa",
+      "category": "process"
+    },
+    {
+      "sv": "tilldelningsbeslut",
+      "en": "award decision",
+      "pl": "decyzja o udzieleniu zamówienia",
+      "category": "process"
+    },
+    {
+      "sv": "överprövning",
+      "en": "review / procurement appeal",
+      "pl": "odwołanie od zamówienia",
+      "category": "process"
+    },
+    {
+      "sv": "tidplan",
+      "en": "time schedule / programme",
+      "pl": "harmonogram",
+      "category": "process"
+    },
+    {
+      "sv": "huvudtidplan",
+      "en": "master schedule",
+      "pl": "harmonogram główny",
+      "category": "process"
+    },
+    {
+      "sv": "produktionstidplan",
+      "en": "production schedule",
+      "pl": "harmonogram produkcji",
+      "category": "process"
+    },
+    {
+      "sv": "gantt-schema",
+      "en": "Gantt chart",
+      "pl": "wykres Gantta",
+      "category": "process"
+    },
+    {
+      "sv": "kritisk linje",
+      "en": "critical path",
+      "pl": "ścieżka krytyczna",
+      "category": "process"
+    },
+    {
+      "sv": "milstolpe",
+      "en": "milestone",
+      "pl": "kamień milowy",
+      "category": "process"
+    },
+    {
+      "sv": "byggmöte",
+      "en": "site/construction meeting",
+      "pl": "narada budowy",
+      "category": "process"
+    },
+    {
+      "sv": "startmöte",
+      "en": "kick-off meeting",
+      "pl": "spotkanie rozpoczynające",
+      "category": "process"
+    },
+    {
+      "sv": "projekteringsmöte",
+      "en": "design meeting",
+      "pl": "narada projektowa",
+      "category": "process"
+    },
+    {
+      "sv": "mötesprotokoll",
+      "en": "meeting minutes",
+      "pl": "protokół ze spotkania",
+      "category": "process"
+    },
+    {
+      "sv": "egenkontroll",
+      "en": "self-inspection / self-check",
+      "pl": "kontrola własna",
+      "category": "process"
+    },
+    {
+      "sv": "kontrollplan",
+      "en": "inspection/control plan",
+      "pl": "plan kontroli",
+      "category": "process"
+    },
+    {
+      "sv": "kvalitetsplan",
+      "en": "quality plan",
+      "pl": "plan jakości",
+      "category": "process"
+    },
+    {
+      "sv": "miljöplan",
+      "en": "environmental plan",
+      "pl": "plan środowiskowy",
+      "category": "process"
+    },
+    {
+      "sv": "avvikelserapport",
+      "en": "non-conformance report",
+      "pl": "raport niezgodności",
+      "category": "process"
+    },
+    {
+      "sv": "dagbok",
+      "en": "site diary",
+      "pl": "dziennik budowy",
+      "category": "process"
+    },
+    {
+      "sv": "APD-plan",
+      "en": "site layout plan",
+      "pl": "plan zagospodarowania placu budowy",
+      "category": "process"
+    },
+    {
+      "sv": "etableringsskede",
+      "en": "site establishment phase",
+      "pl": "faza organizacji placu budowy",
+      "category": "process"
+    }
   ]
 }
