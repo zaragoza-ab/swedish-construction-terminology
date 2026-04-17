@@ -1,0 +1,12 @@
+title: "Swedish Construction Terminology"
+description: "Trilingual SV/EN/PL glossary for the Swedish construction industry"
+theme: jekyll-theme-cayman
+plugins:
+  - jekyll-sitemap
+  - jekyll-seo-tag
+url: "https://zaragoza-ab.github.io"
+baseurl: "/swedish-construction-terminology"
+author:
+  name: "Zaragoza AB"
+  email: "info@zaragoza.se"
+  url: "https://zaragoza.se"
